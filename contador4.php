@@ -1,5 +1,4 @@
 <?php
-
 ini_set('display_errors',1);
 ini_set('display_stsrtup_errors',1);
 error_reporting(E_ALL);
@@ -26,6 +25,4 @@ $row = mysqli_fetch_array($resultat);
 echo $row[0];
 
 $conn->close();
-
-
 ?>
